@@ -91,6 +91,9 @@ def select_model(X_train, X_test, X_valid, y_train, y_test, y_valid):
 
 
 def compute_information_gain(labels):
+    '''
+    Incomplete
+    '''
     #H(Y) -- (entropy for info gain calc):
     zeros = 0
     for i in range(len(labels)):
